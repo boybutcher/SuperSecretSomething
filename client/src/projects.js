@@ -12,7 +12,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <div>
+      <div className='Projects'>
         {this.state.projects.map(project => 
           <ProjectTile />
         )}
