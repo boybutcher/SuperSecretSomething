@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
+import './projectTile.css';
 
 class ProjectTile extends Component {
   render() {
     return (
-      <div>
+      <div className='ProjectTile'>
         <h1>ProjectTile</h1>
       </div>
     )
