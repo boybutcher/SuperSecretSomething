@@ -14,7 +14,7 @@ class Projects extends Component {
     return (
       <div className='Projects'>
         {this.state.projects.map(project => 
-          <ProjectTile />
+          <ProjectTile name={project.name}/>
         )}
       </div>
     )
