@@ -5,7 +5,7 @@ class ProjectTile extends Component {
   render() {
     return (
       <div className='ProjectTile'>
-        <h1>ProjectTile</h1>
+        <h1>{this.props.name}</h1>
       </div>
     )
   }
