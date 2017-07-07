@@ -1,5 +1,5 @@
 .VideoBanner {
-  width: 100%;
+  flex: 0 0 100%;
   text-align: center;
   background-color: yellow;
 }
