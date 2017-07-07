@@ -6,7 +6,7 @@ class Projects extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      projects: [{name: 'group 1'}, {name: 'group 2'}, {name: 'group 3'}, {name: 'group 4'}]
+      projects: [{name: 'group 1'}, {name: 'group 2'}, {name: 'group 3'}, {name: 'group 4'}],
     };
   }
 

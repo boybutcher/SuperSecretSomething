@@ -3,3 +3,9 @@
   text-align: center;
   background-color: red;
 }
+
+.HoveredTile {
+  flex: 0 0 50%;
+  text-align: center;
+  background-color: white;
+}

@@ -4,19 +4,39 @@ import './projectTile.css';
 class ProjectTile extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      hovering: false,
+    }
     this.tileHover = this.tileHover.bind(this);
+    this.stopHover = this.stopHover.bind(this);
   }
 
   tileHover() {
-    console.log('you\'re hovering over ', this.props.name);
+    this.setState({
+      hovering: true
+    })
+  }
+
+  stopHover() {
+    this.setState({
+      hovering: false
+    })
   }
 
   render() {
-    return (
-      <div className='ProjectTile' onMouseOver={this.tileHover}>
-        <h1>{this.props.name}</h1>
-      </div>
-    )
+    if (this.state.hovering === false) {
+      return (
+        <div className='ProjectTile' onMouseEnter={this.tileHover}>
+          <h1>{this.props.name}</h1>
+        </div>
+      ) 
+    } else {
+      return (
+        <div className='HoveredTile' onMouseLeave={this.stopHover}>
+          <h1>{this.props.name}</h1>
+        </div>
+      )
+    }
   }
 }
 
