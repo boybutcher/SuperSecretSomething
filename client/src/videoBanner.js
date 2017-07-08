@@ -5,7 +5,7 @@ class VideoBanner extends Component {
   render() {
     return (
       <div className='VideoBanner'>
-        <h1>VideoBanner</h1>
+        <h1>VideoBanner to go here</h1>
       </div>
     );
   }

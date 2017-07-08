@@ -1,4 +1,7 @@
 .VideoBanner {
   flex: 0 0 100%;
   text-align: center;
+  background: black;
+  color: white;
+  justify-content: center;
 }

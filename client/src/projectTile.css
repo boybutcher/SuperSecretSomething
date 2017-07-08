@@ -20,7 +20,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: red;
+  background-color: black;
 }
 
 .Tile:hover .Overlay {
@@ -28,7 +28,7 @@
 }
 
 .TileName {
-  color: black;
+  color: white;
   font-size: xx-large;
   position: absolute;
   top: 50%;
