@@ -24,19 +24,14 @@ class ProjectTile extends Component {
   }
 
   render() {
-    if (this.state.hovering === false) {
-      return (
-        <div className='ProjectTile' onMouseEnter={this.tileHover}>
-          <h1>{this.props.name}</h1>
+    return (
+      <div className='Tile'>
+        <img src={this.props.project.imageurl} alt='thumbnail' className='ThumbnailImage'/>
+        <div className='Overlay'> 
+          <div className='TileName'>{this.props.project.name}</div>
         </div>
-      ) 
-    } else {
-      return (
-        <div className='HoveredTile' onMouseLeave={this.stopHover}>
-          <h1>{this.props.name}</h1>
-        </div>
-      )
-    }
+      </div>
+    )
   }
 }
 
