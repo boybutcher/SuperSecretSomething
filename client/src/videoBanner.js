@@ -5,7 +5,7 @@ class VideoBanner extends Component {
   render() {
     return (
       <div className='VideoBanner'>
-        <h1>VideoBanner placeholder</h1>
+        <h1>King Gizzard and the Lizard Wizard</h1>
       </div>
     );
   }

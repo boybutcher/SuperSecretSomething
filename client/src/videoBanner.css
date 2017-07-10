@@ -1,6 +1,11 @@
 .VideoBanner {
   flex: 0 0 100%;
   text-align: center;
-  background: black;
   color: white;
+  margin-top: -35%;
+  z-index: 100;
+}
+
+.VideoBanner > h1 {
+  cursor: pointer;
 }

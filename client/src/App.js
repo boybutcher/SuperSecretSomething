@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import VideoBanner from './videoBanner.js';
+import VideoBanner from './videoBanner.js'
 import NavBar from './navBar.js';
 import Projects from './projects.js';
 import Footer from './footer.js';
