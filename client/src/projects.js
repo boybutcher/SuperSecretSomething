@@ -16,8 +16,8 @@ class Projects extends Component {
   render() {
     return (
       <div className='Projects'>
-        {this.state.projects.map(project => 
-          <ProjectTile project={project}/>
+        {this.state.projects.map((project, index) => 
+          <ProjectTile project={project} key={index}/>
         )}
       </div>
     )
