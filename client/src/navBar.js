@@ -2,10 +2,18 @@ import React, {Component} from 'react';
 import './navBar.css'
 
 class NavBar extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isModalOpen: false,
+    }
+  }
+
   render() {
     return (
       <div className='NavBar'>
-        <h1>NavBar</h1>
+        <div>NavBar</div>
+        <div className='ModalButton'>modalButton</div>
       </div>
     )
   }
